@@ -1,0 +1,55 @@
+@import "./reset.css";
+
+.container {
+  margin: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: 2px black solid;
+  padding: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-dice-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dice-container {
+  margin: 30px;
+  padding: 10px 30px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border: 2px black solid;
+  border-radius: 20px;
+}
+
+.dice {
+  font-size: 50px;
+  border: 2px, black solid;
+  justify-content: space-around;
+}
+
+.stats {
+  min-width: 20px;
+  min-height: 20px;
+  border: 2px black solid;
+}
+
+.stats td {
+  border: 1px grey solid;
+}
